@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #efefef;
+    color: #323232;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    width: 640px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.form-field {
+    margin: 0 0 20px 0;
+}
+
+.form-label {
+    display: block;
+    padding: 0 10px 5px 0;
+}
+
+.form-textarea {
+    border: 1px solid #323232;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #323232;
+    float: left;
+    font-size: 16px;
+    min-height: 80px;
+    outline: none;
+    overflow: auto;
+    padding: 5px;
+    resize: none;
+    width: 628px
+}
+
+.form-submit {
+    background: #4c4c4c;
+    border: 1px solid #323232;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #efefef;
+    cursor: pointer;
+    float: right;
+    padding: 3px 20px;
+    text-align: center;
+}
+
+.form-submit:hover {
+    background: #ffdd88;
+    color: #323232;
+}
+
+.data {
+    border: 1px solid #323232;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 640px
+}
+
+.data tr {
+    line-height: 24px;
+    text-align: left;
+}
+
+.data .header {
+    background: #323232;
+    color: #efefef;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.data .odd {
+    background: #efefef;
+}
+
+.data .even {
+    background: #c9c9c9;
+}
+
+.data th, .data td {
+    padding: 0 5px;
+}
+
+.data td {
+    border-top: 1px solid #323232;
+}
+
+.help {
+    background-color: #fff;
+    border: 1px solid #0f0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    padding: 5px;
+}
+
+.errors {
+    background-color: #fff;
+    border: 1px solid #f00;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: none;
+    margin: 0 0 20px 0;
+    padding: 5px;
+}
+
+.help p, .errors p {
+    font-weight: 600;
+    margin: 0;
+}
+
+.help ul, .errors ul {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.help ul li, .errors ul li {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
